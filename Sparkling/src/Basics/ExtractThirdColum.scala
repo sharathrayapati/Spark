@@ -17,6 +17,7 @@ object ExtractThirdColumn {
     val first = csv.map(line => line.split(",")(2)) // Returns an RDD of length n by applying the function, and the function returns only third column after splitting with ','
 
     first.collect().foreach(println) // prints third columns in each row
+    
 
   }
 }
