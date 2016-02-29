@@ -16,11 +16,14 @@ object Countlines {
     val conf = new SparkConf().setAppName("Parallelize").setMaster("local") //Spark config is required to create a SparkContext
     val sc = new SparkContext(conf) // create SparkContext
 
-    val mem = sc.textFile(hell).persist()  // Creating an RDD by passing through SparkContext and storing in memory by using persist
+//    val mem = sc.textFile(hell).persist() // Creating an RDD by passing through SparkContext and storing in memory by using persist
+   val mem = sc.textFile(hell)
     val no = mem.count() // Counting the no of rows in a file
 
     
-    println("count of sales file in csv is " + no)
+    //println("count of sales file in csv is " + no)
+    
+    mem.toDebugString
 
   }
 }

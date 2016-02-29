@@ -5,47 +5,52 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.rdd.RDD
 import org.apache.spark.rdd.PairRDDFunctions
+import org.apache.spark.Accumulator
 
 object Reduce {
 
   def main(args: Array[String]) {
 
-    val hell = "/Users/NagasharathRayapati/Desktop/Data/SalesJan2009.csv" // A file on my Desktop
+    val csv = "/Users/NagasharathRayapati/Desktop/Data/SalesJan2009.csv" // A file on my Desktop
 
     val conf = new SparkConf().setAppName("Parallelize").setMaster("local") //Spark config is required to create a SparkContext
     val sc = new SparkContext(conf) // create SparkContext
+    val acc = sc.accumulator(0)
 
-    val mem = sc.textFile(hell).persist() // Creating an RDD by passing through SparkContext and storing in memory by using persist
-    
-    val header = mem.first()
-    
-    val index = mem.filter ( x => x!=header)
-    
+    val file = sc.textFile(csv).persist() // Creating an RDD by passing through SparkContext and storing in memory by using persist
+
+    val header = file.first()
+
+    val index = file.filter(x => x != header)
+
     val pairs = index.map(x => (x.split(",")(1).trim(), x.split(",")(2).toInt))
-    val so1 = pairs.groupByKey()
+    val group = pairs.groupByKey()
     
-    val so2 = pairs.reduceByKey(_ + _)
-    
-    val mapval = so2.mapValues(x => x/10)
-    
-    val sortbykey = so2.sortByKey()
-    
-    val joined = so2.join(mapval)
-    
-    val cogro = so2.cogroup(mapval)
-    
-   
-    so1.collect().foreach(println)
-    
-    so2.collect().foreach(println)
-    
+    //val comb = pairs.combineByKey(createCombiner, mergeValue, mergeCombiners)
+
+    val red = pairs.reduceByKey(_ + _)
+
+    val mapval = red.mapValues(x => x / 10)
+
+    val sortbykey = red.sortByKey()
+
+    val joined = red.join(mapval)
+
+    val cogro = red.cogroup(mapval)
+
+    group.collect().foreach(println)
+
+    red.collect().foreach(println)
+
     mapval.collect().foreach(println)
-    
+
     sortbykey.collect().foreach(println)
     
+//    sortbykey.saveAsTextFile("/Users/NagasharathRayapati/Desktop/Data/output.cs")
+
     joined.collect().foreach(println)
-    
+
     cogro.collect().foreach(println)
-    
+
   }
 }
