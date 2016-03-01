@@ -1,0 +1,1032 @@
+16/02/29 19:02:49 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+16/02/29 19:02:49 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:49 INFO Executor: Finished task 0.0 in stage 103.0 (TID 300). 1388 bytes result sent to driver
+16/02/29 19:02:49 INFO TaskSetManager: Finished task 0.0 in stage 103.0 (TID 300) in 2 ms on localhost (1/1)
+16/02/29 19:02:49 INFO TaskSchedulerImpl: Removed TaskSet 103.0, whose tasks have all completed, from pool 
+16/02/29 19:02:49 INFO DAGScheduler: Stage 103 (print at Assignment.scala:36) finished in 0.002 s
+16/02/29 19:02:49 INFO DAGScheduler: Job 39 finished: print at Assignment.scala:36, took 0.020568 s
+16/02/29 19:02:49 INFO SparkContext: Starting job: print at Assignment.scala:36
+16/02/29 19:02:49 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 26 is 239 bytes
+16/02/29 19:02:49 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 27 is 157 bytes
+16/02/29 19:02:49 INFO DAGScheduler: Got job 40 (print at Assignment.scala:36) with 1 output partitions (allowLocal=true)
+16/02/29 19:02:49 INFO DAGScheduler: Final stage: Stage 106(print at Assignment.scala:36)
+16/02/29 19:02:49 INFO DAGScheduler: Parents of final stage: List(Stage 105)
+16/02/29 19:02:49 INFO DAGScheduler: Missing parents: List()
+16/02/29 19:02:49 INFO DAGScheduler: Submitting Stage 106 (ShuffledRDD[140] at transform at Assignment.scala:36), which has no missing parents
+16/02/29 19:02:49 INFO MemoryStore: ensureFreeSpace(2488) called with curMem=2083807, maxMem=2061647216
+16/02/29 19:02:49 INFO MemoryStore: Block broadcast_66 stored as values in memory (estimated size 2.4 KB, free 1964.2 MB)
+16/02/29 19:02:49 INFO MemoryStore: ensureFreeSpace(1803) called with curMem=2086295, maxMem=2061647216
+16/02/29 19:02:49 INFO MemoryStore: Block broadcast_66_piece0 stored as bytes in memory (estimated size 1803.0 B, free 1964.1 MB)
+16/02/29 19:02:49 INFO BlockManagerInfo: Added broadcast_66_piece0 in memory on localhost:57192 (size: 1803.0 B, free: 1964.2 MB)
+16/02/29 19:02:49 INFO BlockManagerMaster: Updated info of block broadcast_66_piece0
+16/02/29 19:02:49 INFO SparkContext: Created broadcast 66 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:49 INFO DAGScheduler: Submitting 1 missing tasks from Stage 106 (ShuffledRDD[140] at transform at Assignment.scala:36)
+16/02/29 19:02:49 INFO TaskSchedulerImpl: Adding task set 106.0 with 1 tasks
+16/02/29 19:02:49 INFO TaskSetManager: Starting task 0.0 in stage 106.0 (TID 301, localhost, PROCESS_LOCAL, 1056 bytes)
+16/02/29 19:02:49 INFO Executor: Running task 0.0 in stage 106.0 (TID 301)
+16/02/29 19:02:49 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+16/02/29 19:02:49 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:49 INFO Executor: Finished task 0.0 in stage 106.0 (TID 301). 1335 bytes result sent to driver
+16/02/29 19:02:49 INFO CheckpointWriter: Deleting file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801364000.bk
+16/02/29 19:02:49 INFO TaskSetManager: Finished task 0.0 in stage 106.0 (TID 301) in 3 ms on localhost (1/1)
+16/02/29 19:02:49 INFO DAGScheduler: Stage 106 (print at Assignment.scala:36) finished in 0.003 s
+16/02/29 19:02:49 INFO TaskSchedulerImpl: Removed TaskSet 106.0, whose tasks have all completed, from pool 
+16/02/29 19:02:49 INFO DAGScheduler: Job 40 finished: print at Assignment.scala:36, took 0.005878 s
+-------------------------------------------16/02/29 19:02:49 INFO CheckpointWriter: Checkpoint for time 1456801369000 ms saved to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801369000', took 6913 bytes and 27 ms
+16/02/29 19:02:49 INFO JobScheduler: Finished job streaming job 1456801369000 ms.0 from job set of time 1456801369000 ms
+16/02/29 19:02:49 INFO JobScheduler: Total delay: 0.126 s for time 1456801369000 ms (execution: 0.028 s)
+16/02/29 19:02:49 INFO ShuffledRDD: Removing RDD 130 from persistence list
+16/02/29 19:02:49 INFO BlockManager: Removing RDD 130
+16/02/29 19:02:49 INFO MapPartitionsRDD: Removing RDD 127 from persistence list
+16/02/29 19:02:49 INFO BlockManager: Removing RDD 127
+16/02/29 19:02:49 INFO ShuffledRDD: Removing RDD 126 from persistence list
+
+Time: 1456801369000 ms
+-------------------------------------------
+(11,KCA)
+(9,HappyBirthdayJustinBieber)
+(4,Oscars)
+(4,iHeartAwards)
+(3,VotaSebastiánVillalobos)
+(2,ALDUBBirthdayWish)
+(2,ﷺ)
+(2,MePasaDeTodoCuando)
+(2,BestFanArmy)
+(2,BBB16)
+(2,TheBachelor)
+(2,TilItHappensToYou)
+(2,BestMovieSong)
+(1,Mu…)
+(1,ESCORPIO)
+(1,Theri)
+(1,Nexercise)
+(1,OneMovieIllNeverGetTiredOf)
+(1,Harmonizers)
+(1,kickem)
+(1,hatosanjp)
+(1,smartdns)
+(1,2)
+(1,HPasesino)
+(1,루한
+오빠의)
+...
+
+16/02/29 19:02:49 INFO BlockManager: Removing RDD 126
+16/02/29 19:02:49 INFO MapPartitionsRDD: Removing RDD 125 from persistence list
+16/02/29 19:02:49 INFO BlockManager: Removing RDD 125
+16/02/29 19:02:49 INFO MapPartitionsRDD: Removing RDD 124 from persistence list
+16/02/29 19:02:49 INFO BlockManager: Removing RDD 124
+16/02/29 19:02:49 INFO MapPartitionsRDD: Removing RDD 123 from persistence list
+16/02/29 19:02:49 INFO BlockManager: Removing RDD 123
+16/02/29 19:02:49 INFO UnionRDD: Removing RDD 122 from persistence list
+16/02/29 19:02:49 INFO BlockManager: Removing RDD 122
+16/02/29 19:02:49 INFO JobGenerator: Checkpointing graph for time 1456801369000 ms
+16/02/29 19:02:49 INFO DStreamGraph: Updating checkpoint data for time 1456801369000 ms
+16/02/29 19:02:49 INFO DStreamGraph: Updated checkpoint data for time 1456801369000 ms
+16/02/29 19:02:49 INFO CheckpointWriter: Saving checkpoint for time 1456801369000 ms to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801369000'
+16/02/29 19:02:49 INFO CheckpointWriter: Deleting file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801364000
+16/02/29 19:02:49 INFO CheckpointWriter: Checkpoint for time 1456801369000 ms saved to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801369000', took 6907 bytes and 24 ms
+16/02/29 19:02:49 INFO DStreamGraph: Clearing checkpoint data for time 1456801369000 ms
+16/02/29 19:02:49 INFO DStreamGraph: Cleared checkpoint data for time 1456801369000 ms
+16/02/29 19:02:49 INFO ReceivedBlockTracker: Deleting batches ArrayBuffer()
+16/02/29 19:02:49 INFO MemoryStore: ensureFreeSpace(32238) called with curMem=2088098, maxMem=2061647216
+16/02/29 19:02:49 INFO MemoryStore: Block input-0-1456801369600 stored as bytes in memory (estimated size 31.5 KB, free 1964.1 MB)
+16/02/29 19:02:49 INFO BlockManagerInfo: Added input-0-1456801369600 in memory on localhost:57192 (size: 31.5 KB, free: 1964.2 MB)
+16/02/29 19:02:49 INFO BlockManagerMaster: Updated info of block input-0-1456801369600
+16/02/29 19:02:49 WARN BlockManager: Block input-0-1456801369600 replicated to only 0 peer(s) instead of 1 peers
+16/02/29 19:02:49 INFO BlockGenerator: Pushed block input-0-1456801369600
+16/02/29 19:02:50 INFO TwitterInputDStream: Slicing from 1456801071000 ms to 1456801370000 ms (aligned to 1456801071000 ms and 1456801370000 ms)
+16/02/29 19:02:50 INFO TwitterInputDStream: Time 1456801355000 ms is invalid as zeroTime is 1456801355000 ms and slideDuration is 1000 ms and difference is 0 ms
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(53729) called with curMem=2120336, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block input-0-1456801369800 stored as bytes in memory (estimated size 52.5 KB, free 1964.1 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added input-0-1456801369800 in memory on localhost:57192 (size: 52.5 KB, free: 1964.1 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block input-0-1456801369800
+16/02/29 19:02:50 WARN BlockManager: Block input-0-1456801369800 replicated to only 0 peer(s) instead of 1 peers
+16/02/29 19:02:50 INFO BlockGenerator: Pushed block input-0-1456801369800
+16/02/29 19:02:50 INFO SparkContext: Starting job: transform at Assignment.scala:36
+16/02/29 19:02:50 INFO DAGScheduler: Registering RDD 145 (map at Assignment.scala:30)
+16/02/29 19:02:50 INFO DAGScheduler: Got job 41 (transform at Assignment.scala:36) with 2 output partitions (allowLocal=false)
+16/02/29 19:02:50 INFO DAGScheduler: Final stage: Stage 108(transform at Assignment.scala:36)
+16/02/29 19:02:50 INFO DAGScheduler: Parents of final stage: List(Stage 107)
+16/02/29 19:02:50 INFO DAGScheduler: Missing parents: List(Stage 107)
+16/02/29 19:02:50 INFO DAGScheduler: Submitting Stage 107 (MapPartitionsRDD[145] at map at Assignment.scala:30), which has no missing parents
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(3976) called with curMem=2174065, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_67 stored as values in memory (estimated size 3.9 KB, free 1964.1 MB)
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(2564) called with curMem=2178041, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_67_piece0 stored as bytes in memory (estimated size 2.5 KB, free 1964.1 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added broadcast_67_piece0 in memory on localhost:57192 (size: 2.5 KB, free: 1964.1 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_67_piece0
+16/02/29 19:02:50 INFO SparkContext: Created broadcast 67 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:50 INFO DAGScheduler: Submitting 36 missing tasks from Stage 107 (MapPartitionsRDD[145] at map at Assignment.scala:30)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Adding task set 107.0 with 36 tasks
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 0.0 in stage 107.0 (TID 302, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 0.0 in stage 107.0 (TID 302)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_21_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 0.0 in stage 107.0 (TID 302). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 1.0 in stage 107.0 (TID 303, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 1.0 in stage 107.0 (TID 303)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 0.0 in stage 107.0 (TID 302) in 4 ms on localhost (1/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_31_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 1.0 in stage 107.0 (TID 303). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 2.0 in stage 107.0 (TID 304, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 2.0 in stage 107.0 (TID 304)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 1.0 in stage 107.0 (TID 303) in 3 ms on localhost (2/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_31_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 2.0 in stage 107.0 (TID 304). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 3.0 in stage 107.0 (TID 305, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 3.0 in stage 107.0 (TID 305)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 2.0 in stage 107.0 (TID 304) in 1 ms on localhost (3/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_41_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 3.0 in stage 107.0 (TID 305). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 4.0 in stage 107.0 (TID 306, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 4.0 in stage 107.0 (TID 306)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 3.0 in stage 107.0 (TID 305) in 2 ms on localhost (4/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_41_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 4.0 in stage 107.0 (TID 306). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 5.0 in stage 107.0 (TID 307, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 5.0 in stage 107.0 (TID 307)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 4.0 in stage 107.0 (TID 306) in 2 ms on localhost (5/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_41_2 locally
+16/02/29 19:02:50 INFO Executor: Finished task 5.0 in stage 107.0 (TID 307). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 6.0 in stage 107.0 (TID 308, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 6.0 in stage 107.0 (TID 308)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 5.0 in stage 107.0 (TID 307) in 2 ms on localhost (6/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_41_3 locally
+16/02/29 19:02:50 INFO Executor: Finished task 6.0 in stage 107.0 (TID 308). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 7.0 in stage 107.0 (TID 309, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 7.0 in stage 107.0 (TID 309)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 6.0 in stage 107.0 (TID 308) in 2 ms on localhost (7/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_51_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 7.0 in stage 107.0 (TID 309). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 8.0 in stage 107.0 (TID 310, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 8.0 in stage 107.0 (TID 310)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 7.0 in stage 107.0 (TID 309) in 3 ms on localhost (8/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_51_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 8.0 in stage 107.0 (TID 310). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 9.0 in stage 107.0 (TID 311, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 9.0 in stage 107.0 (TID 311)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 8.0 in stage 107.0 (TID 310) in 2 ms on localhost (9/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_51_2 locally
+16/02/29 19:02:50 INFO Executor: Finished task 9.0 in stage 107.0 (TID 311). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 10.0 in stage 107.0 (TID 312, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 10.0 in stage 107.0 (TID 312)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 9.0 in stage 107.0 (TID 311) in 1 ms on localhost (10/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_51_3 locally
+16/02/29 19:02:50 INFO Executor: Finished task 10.0 in stage 107.0 (TID 312). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 11.0 in stage 107.0 (TID 313, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 11.0 in stage 107.0 (TID 313)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 10.0 in stage 107.0 (TID 312) in 2 ms on localhost (11/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_61_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 11.0 in stage 107.0 (TID 313). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 12.0 in stage 107.0 (TID 314, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 12.0 in stage 107.0 (TID 314)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 11.0 in stage 107.0 (TID 313) in 3 ms on localhost (12/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_61_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 12.0 in stage 107.0 (TID 314). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 13.0 in stage 107.0 (TID 315, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 13.0 in stage 107.0 (TID 315)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 12.0 in stage 107.0 (TID 314) in 1 ms on localhost (13/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_61_2 locally
+16/02/29 19:02:50 INFO Executor: Finished task 13.0 in stage 107.0 (TID 315). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 14.0 in stage 107.0 (TID 316, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 14.0 in stage 107.0 (TID 316)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 13.0 in stage 107.0 (TID 315) in 2 ms on localhost (14/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_61_3 locally
+16/02/29 19:02:50 INFO Executor: Finished task 14.0 in stage 107.0 (TID 316). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 15.0 in stage 107.0 (TID 317, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 15.0 in stage 107.0 (TID 317)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 14.0 in stage 107.0 (TID 316) in 2 ms on localhost (15/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_71_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 15.0 in stage 107.0 (TID 317). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 16.0 in stage 107.0 (TID 318, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 16.0 in stage 107.0 (TID 318)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 15.0 in stage 107.0 (TID 317) in 2 ms on localhost (16/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_71_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 16.0 in stage 107.0 (TID 318). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 17.0 in stage 107.0 (TID 319, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 17.0 in stage 107.0 (TID 319)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 16.0 in stage 107.0 (TID 318) in 1 ms on localhost (17/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_71_2 locally
+16/02/29 19:02:50 INFO Executor: Finished task 17.0 in stage 107.0 (TID 319). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 18.0 in stage 107.0 (TID 320, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 18.0 in stage 107.0 (TID 320)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 17.0 in stage 107.0 (TID 319) in 1 ms on localhost (18/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_81_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 18.0 in stage 107.0 (TID 320). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 19.0 in stage 107.0 (TID 321, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 19.0 in stage 107.0 (TID 321)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 18.0 in stage 107.0 (TID 320) in 3 ms on localhost (19/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_81_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 19.0 in stage 107.0 (TID 321). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 20.0 in stage 107.0 (TID 322, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 20.0 in stage 107.0 (TID 322)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 19.0 in stage 107.0 (TID 321) in 2 ms on localhost (20/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_91_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 20.0 in stage 107.0 (TID 322). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 21.0 in stage 107.0 (TID 323, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 21.0 in stage 107.0 (TID 323)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 20.0 in stage 107.0 (TID 322) in 3 ms on localhost (21/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_91_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 21.0 in stage 107.0 (TID 323). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 22.0 in stage 107.0 (TID 324, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 22.0 in stage 107.0 (TID 324)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 21.0 in stage 107.0 (TID 323) in 1 ms on localhost (22/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_91_2 locally
+16/02/29 19:02:50 INFO Executor: Finished task 22.0 in stage 107.0 (TID 324). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 23.0 in stage 107.0 (TID 325, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 23.0 in stage 107.0 (TID 325)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 22.0 in stage 107.0 (TID 324) in 3 ms on localhost (23/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_101_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 23.0 in stage 107.0 (TID 325). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 24.0 in stage 107.0 (TID 326, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 24.0 in stage 107.0 (TID 326)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 23.0 in stage 107.0 (TID 325) in 3 ms on localhost (24/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_101_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 24.0 in stage 107.0 (TID 326). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 25.0 in stage 107.0 (TID 327, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 25.0 in stage 107.0 (TID 327)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 24.0 in stage 107.0 (TID 326) in 2 ms on localhost (25/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_101_2 locally
+16/02/29 19:02:50 INFO Executor: Finished task 25.0 in stage 107.0 (TID 327). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 26.0 in stage 107.0 (TID 328, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 26.0 in stage 107.0 (TID 328)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 25.0 in stage 107.0 (TID 327) in 4 ms on localhost (26/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_111_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 26.0 in stage 107.0 (TID 328). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 27.0 in stage 107.0 (TID 329, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 27.0 in stage 107.0 (TID 329)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 26.0 in stage 107.0 (TID 328) in 2 ms on localhost (27/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_111_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 27.0 in stage 107.0 (TID 329). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 28.0 in stage 107.0 (TID 330, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 27.0 in stage 107.0 (TID 329) in 2 ms on localhost (28/36)
+16/02/29 19:02:50 INFO Executor: Running task 28.0 in stage 107.0 (TID 330)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_111_2 locally
+16/02/29 19:02:50 INFO Executor: Finished task 28.0 in stage 107.0 (TID 330). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 29.0 in stage 107.0 (TID 331, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 29.0 in stage 107.0 (TID 331)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 28.0 in stage 107.0 (TID 330) in 3 ms on localhost (29/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_121_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 29.0 in stage 107.0 (TID 331). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 30.0 in stage 107.0 (TID 332, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 30.0 in stage 107.0 (TID 332)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 29.0 in stage 107.0 (TID 331) in 2 ms on localhost (30/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_121_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 30.0 in stage 107.0 (TID 332). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 31.0 in stage 107.0 (TID 333, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 31.0 in stage 107.0 (TID 333)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 30.0 in stage 107.0 (TID 332) in 1 ms on localhost (31/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_121_2 locally
+16/02/29 19:02:50 INFO Executor: Finished task 31.0 in stage 107.0 (TID 333). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 32.0 in stage 107.0 (TID 334, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 32.0 in stage 107.0 (TID 334)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 31.0 in stage 107.0 (TID 333) in 2 ms on localhost (32/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_131_0 locally
+16/02/29 19:02:50 INFO Executor: Finished task 32.0 in stage 107.0 (TID 334). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 33.0 in stage 107.0 (TID 335, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 33.0 in stage 107.0 (TID 335)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 32.0 in stage 107.0 (TID 334) in 2 ms on localhost (33/36)
+16/02/29 19:02:50 INFO BlockManager: Found block rdd_131_1 locally
+16/02/29 19:02:50 INFO Executor: Finished task 33.0 in stage 107.0 (TID 335). 2004 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 34.0 in stage 107.0 (TID 336, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 34.0 in stage 107.0 (TID 336)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 33.0 in stage 107.0 (TID 335) in 2 ms on localhost (34/36)
+16/02/29 19:02:50 INFO CacheManager: Partition rdd_141_0 not found, computing it
+16/02/29 19:02:50 INFO BlockManager: Found block input-0-1456801368800 locally
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(72711) called with curMem=2180605, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block rdd_141_0 stored as bytes in memory (estimated size 71.0 KB, free 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added rdd_141_0 in memory on localhost:57192 (size: 71.0 KB, free: 1964.1 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block rdd_141_0
+16/02/29 19:02:50 INFO Executor: Finished task 34.0 in stage 107.0 (TID 336). 1451 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 35.0 in stage 107.0 (TID 337, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 35.0 in stage 107.0 (TID 337)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 34.0 in stage 107.0 (TID 336) in 7 ms on localhost (35/36)
+16/02/29 19:02:50 INFO CacheManager: Partition rdd_141_1 not found, computing it
+16/02/29 19:02:50 INFO BlockManager: Found block input-0-1456801369600 locally
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(32238) called with curMem=2253316, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block rdd_141_1 stored as bytes in memory (estimated size 31.5 KB, free 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added rdd_141_1 in memory on localhost:57192 (size: 31.5 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block rdd_141_1
+16/02/29 19:02:50 INFO Executor: Finished task 35.0 in stage 107.0 (TID 337). 1451 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 35.0 in stage 107.0 (TID 337) in 4 ms on localhost (36/36)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Removed TaskSet 107.0, whose tasks have all completed, from pool 
+16/02/29 19:02:50 INFO DAGScheduler: Stage 107 (map at Assignment.scala:30) finished in 0.080 s
+16/02/29 19:02:50 INFO DAGScheduler: looking for newly runnable stages
+16/02/29 19:02:50 INFO DAGScheduler: running: Set(Stage 0)
+16/02/29 19:02:50 INFO DAGScheduler: waiting: Set(Stage 108)
+16/02/29 19:02:50 INFO DAGScheduler: failed: Set()
+16/02/29 19:02:50 INFO DAGScheduler: Missing parents for Stage 108: List()
+16/02/29 19:02:50 INFO DAGScheduler: Submitting Stage 108 (MapPartitionsRDD[149] at transform at Assignment.scala:36), which is now runnable
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(3072) called with curMem=2285554, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_68 stored as values in memory (estimated size 3.0 KB, free 1964.0 MB)
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(2156) called with curMem=2288626, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_68_piece0 stored as bytes in memory (estimated size 2.1 KB, free 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added broadcast_68_piece0 in memory on localhost:57192 (size: 2.1 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_68_piece0
+16/02/29 19:02:50 INFO SparkContext: Created broadcast 68 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:50 INFO DAGScheduler: Submitting 2 missing tasks from Stage 108 (MapPartitionsRDD[149] at transform at Assignment.scala:36)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Adding task set 108.0 with 2 tasks
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 0.0 in stage 108.0 (TID 338, localhost, PROCESS_LOCAL, 1056 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 0.0 in stage 108.0 (TID 338)
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Getting 21 non-empty blocks out of 36 blocks
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:50 INFO Executor: Finished task 0.0 in stage 108.0 (TID 338). 1310 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 1.0 in stage 108.0 (TID 339, localhost, PROCESS_LOCAL, 1056 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 1.0 in stage 108.0 (TID 339)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 0.0 in stage 108.0 (TID 338) in 5 ms on localhost (1/2)
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Getting 23 non-empty blocks out of 36 blocks
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:50 INFO Executor: Finished task 1.0 in stage 108.0 (TID 339). 1310 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 1.0 in stage 108.0 (TID 339) in 4 ms on localhost (2/2)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Removed TaskSet 108.0, whose tasks have all completed, from pool 
+16/02/29 19:02:50 INFO DAGScheduler: Stage 108 (transform at Assignment.scala:36) finished in 0.008 s
+16/02/29 19:02:50 INFO DAGScheduler: Job 41 finished: transform at Assignment.scala:36, took 0.096199 s
+16/02/29 19:02:50 INFO JobScheduler: Added jobs for time 1456801370000 ms
+16/02/29 19:02:50 INFO JobGenerator: Checkpointing graph for time 1456801370000 ms
+16/02/29 19:02:50 INFO DStreamGraph: Updating checkpoint data for time 1456801370000 ms
+16/02/29 19:02:50 INFO JobScheduler: Starting job streaming job 1456801370000 ms.0 from job set of time 1456801370000 ms
+16/02/29 19:02:50 INFO DStreamGraph: Updated checkpoint data for time 1456801370000 ms
+16/02/29 19:02:50 INFO CheckpointWriter: Saving checkpoint for time 1456801370000 ms to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801370000'
+16/02/29 19:02:50 INFO SparkContext: Starting job: print at Assignment.scala:36
+16/02/29 19:02:50 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 28 is 245 bytes
+16/02/29 19:02:50 INFO DAGScheduler: Registering RDD 147 (map at Assignment.scala:33)
+16/02/29 19:02:50 INFO DAGScheduler: Got job 42 (print at Assignment.scala:36) with 1 output partitions (allowLocal=true)
+16/02/29 19:02:50 INFO DAGScheduler: Final stage: Stage 111(print at Assignment.scala:36)
+16/02/29 19:02:50 INFO DAGScheduler: Parents of final stage: List(Stage 110)
+16/02/29 19:02:50 INFO DAGScheduler: Missing parents: List(Stage 110)
+16/02/29 19:02:50 INFO DAGScheduler: Submitting Stage 110 (MapPartitionsRDD[147] at map at Assignment.scala:33), which has no missing parents
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(3096) called with curMem=2290782, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_69 stored as values in memory (estimated size 3.0 KB, free 1964.0 MB)
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(2211) called with curMem=2293878, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_69_piece0 stored as bytes in memory (estimated size 2.2 KB, free 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added broadcast_69_piece0 in memory on localhost:57192 (size: 2.2 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_69_piece0
+16/02/29 19:02:50 INFO SparkContext: Created broadcast 69 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:50 INFO DAGScheduler: Submitting 2 missing tasks from Stage 110 (MapPartitionsRDD[147] at map at Assignment.scala:33)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Adding task set 110.0 with 2 tasks
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 0.0 in stage 110.0 (TID 340, localhost, PROCESS_LOCAL, 1045 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 0.0 in stage 110.0 (TID 340)
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Getting 21 non-empty blocks out of 36 blocks
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+16/02/29 19:02:50 INFO Executor: Finished task 0.0 in stage 110.0 (TID 340). 1098 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 1.0 in stage 110.0 (TID 341, localhost, PROCESS_LOCAL, 1045 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 1.0 in stage 110.0 (TID 341)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 0.0 in stage 110.0 (TID 340) in 6 ms on localhost (1/2)
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Getting 23 non-empty blocks out of 36 blocks
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:50 INFO Executor: Finished task 1.0 in stage 110.0 (TID 341). 1098 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 1.0 in stage 110.0 (TID 341) in 6 ms on localhost (2/2)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Removed TaskSet 110.0, whose tasks have all completed, from pool 
+16/02/29 19:02:50 INFO DAGScheduler: Stage 110 (map at Assignment.scala:33) finished in 0.013 s
+16/02/29 19:02:50 INFO DAGScheduler: looking for newly runnable stages
+16/02/29 19:02:50 INFO DAGScheduler: running: Set(Stage 0)
+16/02/29 19:02:50 INFO DAGScheduler: waiting: Set(Stage 111)
+16/02/29 19:02:50 INFO DAGScheduler: failed: Set()
+16/02/29 19:02:50 INFO DAGScheduler: Missing parents for Stage 111: List()
+16/02/29 19:02:50 INFO DAGScheduler: Submitting Stage 111 (ShuffledRDD[150] at transform at Assignment.scala:36), which is now runnable
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(2488) called with curMem=2296089, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_70 stored as values in memory (estimated size 2.4 KB, free 1963.9 MB)
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(1802) called with curMem=2298577, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_70_piece0 stored as bytes in memory (estimated size 1802.0 B, free 1963.9 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added broadcast_70_piece0 in memory on localhost:57192 (size: 1802.0 B, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_70_piece0
+16/02/29 19:02:50 INFO SparkContext: Created broadcast 70 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:50 INFO DAGScheduler: Submitting 1 missing tasks from Stage 111 (ShuffledRDD[150] at transform at Assignment.scala:36)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Adding task set 111.0 with 1 tasks
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 0.0 in stage 111.0 (TID 342, localhost, PROCESS_LOCAL, 1056 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 0.0 in stage 111.0 (TID 342)
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:50 INFO Executor: Finished task 0.0 in stage 111.0 (TID 342). 1393 bytes result sent to driver
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 0.0 in stage 111.0 (TID 342) in 2 ms on localhost (1/1)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Removed TaskSet 111.0, whose tasks have all completed, from pool 
+16/02/29 19:02:50 INFO DAGScheduler: Stage 111 (print at Assignment.scala:36) finished in 0.002 s
+16/02/29 19:02:50 INFO DAGScheduler: Job 42 finished: print at Assignment.scala:36, took 0.021216 s
+16/02/29 19:02:50 INFO SparkContext: Starting job: print at Assignment.scala:36
+16/02/29 19:02:50 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 28 is 245 bytes
+16/02/29 19:02:50 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 29 is 157 bytes
+16/02/29 19:02:50 INFO DAGScheduler: Got job 43 (print at Assignment.scala:36) with 1 output partitions (allowLocal=true)
+16/02/29 19:02:50 INFO DAGScheduler: Final stage: Stage 114(print at Assignment.scala:36)
+16/02/29 19:02:50 INFO DAGScheduler: Parents of final stage: List(Stage 113)
+16/02/29 19:02:50 INFO DAGScheduler: Missing parents: List()
+16/02/29 19:02:50 INFO DAGScheduler: Submitting Stage 114 (ShuffledRDD[150] at transform at Assignment.scala:36), which has no missing parents
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(2488) called with curMem=2300379, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_71 stored as values in memory (estimated size 2.4 KB, free 1963.9 MB)
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(1802) called with curMem=2302867, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_71_piece0 stored as bytes in memory (estimated size 1802.0 B, free 1963.9 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added broadcast_71_piece0 in memory on localhost:57192 (size: 1802.0 B, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_71_piece0
+16/02/29 19:02:50 INFO SparkContext: Created broadcast 71 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:50 INFO DAGScheduler: Submitting 1 missing tasks from Stage 114 (ShuffledRDD[150] at transform at Assignment.scala:36)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Adding task set 114.0 with 1 tasks
+16/02/29 19:02:50 INFO TaskSetManager: Starting task 0.0 in stage 114.0 (TID 343, localhost, PROCESS_LOCAL, 1056 bytes)
+16/02/29 19:02:50 INFO Executor: Running task 0.0 in stage 114.0 (TID 343)
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 58
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_58
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_58 of size 3072 dropped from memory (free 2059345619)
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_58_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_58_piece0 of size 2159 dropped from memory (free 2059347778)
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_58_piece0 on localhost:57192 in memory (size: 2.1 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_58_piece0
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 58
+16/02/29 19:02:50 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 70
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_70_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_70_piece0 of size 1802 dropped from memory (free 2059349580)
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_70_piece0 on localhost:57192 in memory (size: 1802.0 B, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_70_piece0
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_70
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_70 of size 2488 dropped from memory (free 2059352068)
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 70
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 69
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_69_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_69_piece0 of size 2211 dropped from memory (free 2059354279)
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_69_piece0 on localhost:57192 in memory (size: 2.2 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_69_piece0
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_69
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_69 of size 3096 dropped from memory (free 2059357375)
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 69
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 68
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_68_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_68_piece0 of size 2156 dropped from memory (free 2059359531)
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_68_piece0 on localhost:57192 in memory (size: 2.1 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_68_piece0
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_68
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_68 of size 3072 dropped from memory (free 2059362603)
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 68
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 67
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_67_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_67_piece0 of size 2564 dropped from memory (free 2059365167)
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_67_piece0 on localhost:57192 in memory (size: 2.5 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_67_piece0
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_67
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_67 of size 3976 dropped from memory (free 2059369143)
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 67
+16/02/29 19:02:50 INFO Executor: Finished task 0.0 in stage 114.0 (TID 343). 1335 bytes result sent to driver
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 66
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_66_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_66_piece0 of size 1803 dropped from memory (free 2059370946)
+16/02/29 19:02:50 INFO TaskSetManager: Finished task 0.0 in stage 114.0 (TID 343) in 5 ms on localhost (1/1)
+16/02/29 19:02:50 INFO TaskSchedulerImpl: Removed TaskSet 114.0, whose tasks have all completed, from pool 
+16/02/29 19:02:50 INFO DAGScheduler: Stage 114 (print at Assignment.scala:36) finished in 0.005 s
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_66_piece0 on localhost:57192 in memory (size: 1803.0 B, free: 1964.0 MB)
+16/02/29 19:02:50 INFO DAGScheduler: Job 43 finished: print at Assignment.scala:36, took 0.014997 s
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_66_piece0
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_66
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_66 of size 2488 dropped from memory (free 2059373434)
+-------------------------------------------
+Time: 1456801370000 ms
+-------------------------------------------
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 66
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 65
+16/02/29 19:02:50 INFO JobScheduler: Finished job streaming job 1456801370000 ms.0 from job set of time 1456801370000 ms
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_65
+16/02/29 19:02:50 INFO JobScheduler: Total delay: 0.147 s for time 1456801370000 ms (execution: 0.037 s)
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_65 of size 2488 dropped from memory (free 2059375922)
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_65_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_65_piece0 of size 1803 dropped from memory (free 2059377725)
+16/02/29 19:02:50 INFO ShuffledRDD: Removing RDD 140 from persistence list
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_65_piece0 on localhost:57192 in memory (size: 1803.0 B, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_65_piece0
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 65
+16/02/29 19:02:50 INFO BlockManager: Removing RDD 140
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 64
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_64_piece0
+16/02/29 19:02:50 INFO MapPartitionsRDD: Removing RDD 137 from persistence list
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_64_piece0 of size 2212 dropped from memory (free 2059379937)
+16/02/29 19:02:50 INFO CheckpointWriter: Deleting file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801365000.bk
+16/02/29 19:02:50 INFO BlockManager: Removing RDD 137
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_64_piece0 on localhost:57192 in memory (size: 2.2 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO ShuffledRDD: Removing RDD 136 from persistence list
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_64_piece0
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_64
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_64 of size 3096 dropped from memory (free 2059383033)
+16/02/29 19:02:50 INFO BlockManager: Removing RDD 136
+16/02/29 19:02:50 INFO CheckpointWriter: Checkpoint for time 1456801370000 ms saved to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801370000', took 6913 bytes and 38 ms
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 64
+16/02/29 19:02:50 INFO MapPartitionsRDD: Removing RDD 135 from persistence list
+(11,KCA)
+(9,HappyBirthdayJustinBieber)
+(5,iHeartAwards)
+(4,Oscars)
+(4,TilItHappensToYou)
+(3,VotaSebastiánVillalobos)
+(3,BestMovieSong)
+(2,ALDUBBirthdayWish)
+(2,ﷺ)
+(2,MePasaDeTodoCuando)
+(2,BestFanArmy)
+(2,BBB16)
+(2,TheBachelor)
+(1,Mu…)
+(1,ESCORPIO)
+(1,Theri)
+(1,Nexercise)
+(1,OneMovieIllNeverGetTiredOf)
+(1,Harmonizers)
+(1,kickem)
+(1,hatosanjp)
+(1,smartdns)
+(1,2)
+(1,HPasesino)
+(1,루한
+오빠의)
+...
+
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 63
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_63
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_63 of size 3072 dropped from memory (free 2059386105)
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_63_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_63_piece0 of size 2157 dropped from memory (free 2059388262)
+16/02/29 19:02:50 INFO BlockManager: Removing RDD 135
+16/02/29 19:02:50 INFO MapPartitionsRDD: Removing RDD 134 from persistence list
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_63_piece0 on localhost:57192 in memory (size: 2.1 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_63_piece0
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 63
+16/02/29 19:02:50 INFO BlockManager: Removing RDD 134
+16/02/29 19:02:50 INFO MapPartitionsRDD: Removing RDD 133 from persistence list
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 62
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_62_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_62_piece0 of size 2567 dropped from memory (free 2059390829)
+16/02/29 19:02:50 INFO BlockManager: Removing RDD 133
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_62_piece0 on localhost:57192 in memory (size: 2.5 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO UnionRDD: Removing RDD 132 from persistence list
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_62_piece0
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_62
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_62 of size 3920 dropped from memory (free 2059394749)
+16/02/29 19:02:50 INFO BlockManager: Removing RDD 132
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 62
+16/02/29 19:02:50 INFO JobGenerator: Checkpointing graph for time 1456801370000 ms
+16/02/29 19:02:50 INFO DStreamGraph: Updating checkpoint data for time 1456801370000 ms
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 61
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_61
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_61 of size 2488 dropped from memory (free 2059397237)
+16/02/29 19:02:50 INFO DStreamGraph: Updated checkpoint data for time 1456801370000 ms
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_61_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_61_piece0 of size 1802 dropped from memory (free 2059399039)
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_61_piece0 on localhost:57192 in memory (size: 1802.0 B, free: 1964.1 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_61_piece0
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 61
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 60
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_60_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_60_piece0 of size 1802 dropped from memory (free 2059400841)
+16/02/29 19:02:50 INFO CheckpointWriter: Saving checkpoint for time 1456801370000 ms to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801370000'
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_60_piece0 on localhost:57192 in memory (size: 1802.0 B, free: 1964.1 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_60_piece0
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_60
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_60 of size 2488 dropped from memory (free 2059403329)
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 60
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 59
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_59_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_59_piece0 of size 2211 dropped from memory (free 2059405540)
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_59_piece0 on localhost:57192 in memory (size: 2.2 KB, free: 1964.1 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_59_piece0
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_59
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_59 of size 3096 dropped from memory (free 2059408636)
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 59
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned shuffle 25
+16/02/29 19:02:50 INFO BlockManager: Removing broadcast 57
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_57
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_57 of size 3872 dropped from memory (free 2059412508)
+16/02/29 19:02:50 INFO BlockManager: Removing block broadcast_57_piece0
+16/02/29 19:02:50 INFO MemoryStore: Block broadcast_57_piece0 of size 2586 dropped from memory (free 2059415094)
+16/02/29 19:02:50 INFO BlockManagerInfo: Removed broadcast_57_piece0 on localhost:57192 in memory (size: 2.5 KB, free: 1964.1 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block broadcast_57_piece0
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned broadcast 57
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned shuffle 24
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned shuffle 23
+16/02/29 19:02:50 INFO ContextCleaner: Cleaned shuffle 22
+16/02/29 19:02:50 INFO CheckpointWriter: Deleting file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801365000
+16/02/29 19:02:50 INFO CheckpointWriter: Checkpoint for time 1456801370000 ms saved to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801370000', took 6907 bytes and 30 ms
+16/02/29 19:02:50 INFO DStreamGraph: Clearing checkpoint data for time 1456801370000 ms
+16/02/29 19:02:50 INFO DStreamGraph: Cleared checkpoint data for time 1456801370000 ms
+16/02/29 19:02:50 INFO ReceivedBlockTracker: Deleting batches ArrayBuffer()
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(8935) called with curMem=2232122, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block input-0-1456801370000 stored as bytes in memory (estimated size 8.7 KB, free 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added input-0-1456801370000 in memory on localhost:57192 (size: 8.7 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block input-0-1456801370000
+16/02/29 19:02:50 WARN BlockManager: Block input-0-1456801370000 replicated to only 0 peer(s) instead of 1 peers
+16/02/29 19:02:50 INFO BlockGenerator: Pushed block input-0-1456801370000
+16/02/29 19:02:50 INFO MemoryStore: ensureFreeSpace(23663) called with curMem=2241057, maxMem=2061647216
+16/02/29 19:02:50 INFO MemoryStore: Block input-0-1456801370600 stored as bytes in memory (estimated size 23.1 KB, free 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerInfo: Added input-0-1456801370600 in memory on localhost:57192 (size: 23.1 KB, free: 1964.0 MB)
+16/02/29 19:02:50 INFO BlockManagerMaster: Updated info of block input-0-1456801370600
+16/02/29 19:02:50 WARN BlockManager: Block input-0-1456801370600 replicated to only 0 peer(s) instead of 1 peers
+16/02/29 19:02:50 INFO BlockGenerator: Pushed block input-0-1456801370600
+16/02/29 19:02:51 INFO TwitterInputDStream: Slicing from 1456801072000 ms to 1456801371000 ms (aligned to 1456801072000 ms and 1456801371000 ms)
+16/02/29 19:02:51 INFO TwitterInputDStream: Time 1456801355000 ms is invalid as zeroTime is 1456801355000 ms and slideDuration is 1000 ms and difference is 0 ms
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(50728) called with curMem=2264720, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block input-0-1456801370800 stored as bytes in memory (estimated size 49.5 KB, free 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added input-0-1456801370800 in memory on localhost:57192 (size: 49.5 KB, free: 1964.0 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block input-0-1456801370800
+16/02/29 19:02:51 WARN BlockManager: Block input-0-1456801370800 replicated to only 0 peer(s) instead of 1 peers
+16/02/29 19:02:51 INFO BlockGenerator: Pushed block input-0-1456801370800
+16/02/29 19:02:51 INFO SparkContext: Starting job: transform at Assignment.scala:36
+16/02/29 19:02:51 INFO DAGScheduler: Registering RDD 155 (map at Assignment.scala:30)
+16/02/29 19:02:51 INFO DAGScheduler: Got job 44 (transform at Assignment.scala:36) with 2 output partitions (allowLocal=false)
+16/02/29 19:02:51 INFO DAGScheduler: Final stage: Stage 116(transform at Assignment.scala:36)
+16/02/29 19:02:51 INFO DAGScheduler: Parents of final stage: List(Stage 115)
+16/02/29 19:02:51 INFO DAGScheduler: Missing parents: List(Stage 115)
+16/02/29 19:02:51 INFO DAGScheduler: Submitting Stage 115 (MapPartitionsRDD[155] at map at Assignment.scala:30), which has no missing parents
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(4024) called with curMem=2315448, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_72 stored as values in memory (estimated size 3.9 KB, free 1963.9 MB)
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(2598) called with curMem=2319472, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_72_piece0 stored as bytes in memory (estimated size 2.5 KB, free 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added broadcast_72_piece0 in memory on localhost:57192 (size: 2.5 KB, free: 1964.0 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block broadcast_72_piece0
+16/02/29 19:02:51 INFO SparkContext: Created broadcast 72 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:51 INFO DAGScheduler: Submitting 39 missing tasks from Stage 115 (MapPartitionsRDD[155] at map at Assignment.scala:30)
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Adding task set 115.0 with 39 tasks
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 0.0 in stage 115.0 (TID 344, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 0.0 in stage 115.0 (TID 344)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_21_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 0.0 in stage 115.0 (TID 344). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 1.0 in stage 115.0 (TID 345, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 1.0 in stage 115.0 (TID 345)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 0.0 in stage 115.0 (TID 344) in 4 ms on localhost (1/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_31_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 1.0 in stage 115.0 (TID 345). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 2.0 in stage 115.0 (TID 346, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 2.0 in stage 115.0 (TID 346)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 1.0 in stage 115.0 (TID 345) in 3 ms on localhost (2/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_31_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 2.0 in stage 115.0 (TID 346). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 3.0 in stage 115.0 (TID 347, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 3.0 in stage 115.0 (TID 347)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 2.0 in stage 115.0 (TID 346) in 2 ms on localhost (3/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_41_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 3.0 in stage 115.0 (TID 347). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 4.0 in stage 115.0 (TID 348, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 4.0 in stage 115.0 (TID 348)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 3.0 in stage 115.0 (TID 347) in 2 ms on localhost (4/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_41_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 4.0 in stage 115.0 (TID 348). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 5.0 in stage 115.0 (TID 349, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 5.0 in stage 115.0 (TID 349)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 4.0 in stage 115.0 (TID 348) in 1 ms on localhost (5/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_41_2 locally
+16/02/29 19:02:51 INFO Executor: Finished task 5.0 in stage 115.0 (TID 349). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 6.0 in stage 115.0 (TID 350, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 6.0 in stage 115.0 (TID 350)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 5.0 in stage 115.0 (TID 349) in 2 ms on localhost (6/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_41_3 locally
+16/02/29 19:02:51 INFO Executor: Finished task 6.0 in stage 115.0 (TID 350). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 7.0 in stage 115.0 (TID 351, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 7.0 in stage 115.0 (TID 351)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 6.0 in stage 115.0 (TID 350) in 2 ms on localhost (7/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_51_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 7.0 in stage 115.0 (TID 351). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 8.0 in stage 115.0 (TID 352, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 8.0 in stage 115.0 (TID 352)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 7.0 in stage 115.0 (TID 351) in 3 ms on localhost (8/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_51_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 8.0 in stage 115.0 (TID 352). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 9.0 in stage 115.0 (TID 353, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 9.0 in stage 115.0 (TID 353)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 8.0 in stage 115.0 (TID 352) in 1 ms on localhost (9/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_51_2 locally
+16/02/29 19:02:51 INFO Executor: Finished task 9.0 in stage 115.0 (TID 353). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 10.0 in stage 115.0 (TID 354, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 10.0 in stage 115.0 (TID 354)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 9.0 in stage 115.0 (TID 353) in 2 ms on localhost (10/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_51_3 locally
+16/02/29 19:02:51 INFO Executor: Finished task 10.0 in stage 115.0 (TID 354). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 11.0 in stage 115.0 (TID 355, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 11.0 in stage 115.0 (TID 355)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 10.0 in stage 115.0 (TID 354) in 2 ms on localhost (11/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_61_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 11.0 in stage 115.0 (TID 355). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 12.0 in stage 115.0 (TID 356, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 12.0 in stage 115.0 (TID 356)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 11.0 in stage 115.0 (TID 355) in 2 ms on localhost (12/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_61_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 12.0 in stage 115.0 (TID 356). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 13.0 in stage 115.0 (TID 357, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 13.0 in stage 115.0 (TID 357)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 12.0 in stage 115.0 (TID 356) in 1 ms on localhost (13/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_61_2 locally
+16/02/29 19:02:51 INFO Executor: Finished task 13.0 in stage 115.0 (TID 357). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 14.0 in stage 115.0 (TID 358, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 14.0 in stage 115.0 (TID 358)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 13.0 in stage 115.0 (TID 357) in 2 ms on localhost (14/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_61_3 locally
+16/02/29 19:02:51 INFO Executor: Finished task 14.0 in stage 115.0 (TID 358). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 15.0 in stage 115.0 (TID 359, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 15.0 in stage 115.0 (TID 359)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 14.0 in stage 115.0 (TID 358) in 2 ms on localhost (15/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_71_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 15.0 in stage 115.0 (TID 359). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 16.0 in stage 115.0 (TID 360, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 16.0 in stage 115.0 (TID 360)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 15.0 in stage 115.0 (TID 359) in 3 ms on localhost (16/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_71_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 16.0 in stage 115.0 (TID 360). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 17.0 in stage 115.0 (TID 361, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 17.0 in stage 115.0 (TID 361)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 16.0 in stage 115.0 (TID 360) in 1 ms on localhost (17/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_71_2 locally
+16/02/29 19:02:51 INFO Executor: Finished task 17.0 in stage 115.0 (TID 361). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 18.0 in stage 115.0 (TID 362, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 18.0 in stage 115.0 (TID 362)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 17.0 in stage 115.0 (TID 361) in 1 ms on localhost (18/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_81_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 18.0 in stage 115.0 (TID 362). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 19.0 in stage 115.0 (TID 363, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 19.0 in stage 115.0 (TID 363)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 18.0 in stage 115.0 (TID 362) in 3 ms on localhost (19/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_81_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 19.0 in stage 115.0 (TID 363). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 20.0 in stage 115.0 (TID 364, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 20.0 in stage 115.0 (TID 364)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 19.0 in stage 115.0 (TID 363) in 2 ms on localhost (20/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_91_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 20.0 in stage 115.0 (TID 364). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 21.0 in stage 115.0 (TID 365, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 21.0 in stage 115.0 (TID 365)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 20.0 in stage 115.0 (TID 364) in 3 ms on localhost (21/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_91_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 21.0 in stage 115.0 (TID 365). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 22.0 in stage 115.0 (TID 366, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 22.0 in stage 115.0 (TID 366)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 21.0 in stage 115.0 (TID 365) in 1 ms on localhost (22/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_91_2 locally
+16/02/29 19:02:51 INFO Executor: Finished task 22.0 in stage 115.0 (TID 366). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 23.0 in stage 115.0 (TID 367, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 23.0 in stage 115.0 (TID 367)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 22.0 in stage 115.0 (TID 366) in 3 ms on localhost (23/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_101_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 23.0 in stage 115.0 (TID 367). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 24.0 in stage 115.0 (TID 368, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 24.0 in stage 115.0 (TID 368)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 23.0 in stage 115.0 (TID 367) in 2 ms on localhost (24/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_101_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 24.0 in stage 115.0 (TID 368). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 25.0 in stage 115.0 (TID 369, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 25.0 in stage 115.0 (TID 369)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 24.0 in stage 115.0 (TID 368) in 1 ms on localhost (25/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_101_2 locally
+16/02/29 19:02:51 INFO Executor: Finished task 25.0 in stage 115.0 (TID 369). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 26.0 in stage 115.0 (TID 370, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 26.0 in stage 115.0 (TID 370)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 25.0 in stage 115.0 (TID 369) in 2 ms on localhost (26/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_111_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 26.0 in stage 115.0 (TID 370). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 27.0 in stage 115.0 (TID 371, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 27.0 in stage 115.0 (TID 371)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 26.0 in stage 115.0 (TID 370) in 2 ms on localhost (27/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_111_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 27.0 in stage 115.0 (TID 371). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 28.0 in stage 115.0 (TID 372, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 28.0 in stage 115.0 (TID 372)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 27.0 in stage 115.0 (TID 371) in 2 ms on localhost (28/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_111_2 locally
+16/02/29 19:02:51 INFO Executor: Finished task 28.0 in stage 115.0 (TID 372). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 29.0 in stage 115.0 (TID 373, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 29.0 in stage 115.0 (TID 373)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 28.0 in stage 115.0 (TID 372) in 1 ms on localhost (29/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_121_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 29.0 in stage 115.0 (TID 373). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 30.0 in stage 115.0 (TID 374, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 30.0 in stage 115.0 (TID 374)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 29.0 in stage 115.0 (TID 373) in 2 ms on localhost (30/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_121_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 30.0 in stage 115.0 (TID 374). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 31.0 in stage 115.0 (TID 375, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 31.0 in stage 115.0 (TID 375)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 30.0 in stage 115.0 (TID 374) in 2 ms on localhost (31/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_121_2 locally
+16/02/29 19:02:51 INFO Executor: Finished task 31.0 in stage 115.0 (TID 375). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 32.0 in stage 115.0 (TID 376, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 32.0 in stage 115.0 (TID 376)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 31.0 in stage 115.0 (TID 375) in 2 ms on localhost (32/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_131_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 32.0 in stage 115.0 (TID 376). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 33.0 in stage 115.0 (TID 377, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 33.0 in stage 115.0 (TID 377)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 32.0 in stage 115.0 (TID 376) in 3 ms on localhost (33/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_131_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 33.0 in stage 115.0 (TID 377). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 34.0 in stage 115.0 (TID 378, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 34.0 in stage 115.0 (TID 378)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 33.0 in stage 115.0 (TID 377) in 1 ms on localhost (34/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_141_0 locally
+16/02/29 19:02:51 INFO Executor: Finished task 34.0 in stage 115.0 (TID 378). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 35.0 in stage 115.0 (TID 379, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 35.0 in stage 115.0 (TID 379)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 34.0 in stage 115.0 (TID 378) in 2 ms on localhost (35/39)
+16/02/29 19:02:51 INFO BlockManager: Found block rdd_141_1 locally
+16/02/29 19:02:51 INFO Executor: Finished task 35.0 in stage 115.0 (TID 379). 2004 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 36.0 in stage 115.0 (TID 380, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 36.0 in stage 115.0 (TID 380)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 35.0 in stage 115.0 (TID 379) in 2 ms on localhost (36/39)
+16/02/29 19:02:51 INFO CacheManager: Partition rdd_151_0 not found, computing it
+16/02/29 19:02:51 INFO BlockManager: Found block input-0-1456801369800 locally
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(53729) called with curMem=2322070, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block rdd_151_0 stored as bytes in memory (estimated size 52.5 KB, free 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added rdd_151_0 in memory on localhost:57192 (size: 52.5 KB, free: 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block rdd_151_0
+16/02/29 19:02:51 INFO Executor: Finished task 36.0 in stage 115.0 (TID 380). 1451 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 37.0 in stage 115.0 (TID 381, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 37.0 in stage 115.0 (TID 381)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 36.0 in stage 115.0 (TID 380) in 6 ms on localhost (37/39)
+16/02/29 19:02:51 INFO CacheManager: Partition rdd_151_1 not found, computing it
+16/02/29 19:02:51 INFO BlockManager: Found block input-0-1456801370000 locally
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(8935) called with curMem=2375799, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block rdd_151_1 stored as bytes in memory (estimated size 8.7 KB, free 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added rdd_151_1 in memory on localhost:57192 (size: 8.7 KB, free: 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block rdd_151_1
+16/02/29 19:02:51 INFO Executor: Finished task 37.0 in stage 115.0 (TID 381). 1451 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 38.0 in stage 115.0 (TID 382, localhost, NODE_LOCAL, 1277 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 38.0 in stage 115.0 (TID 382)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 37.0 in stage 115.0 (TID 381) in 2 ms on localhost (38/39)
+16/02/29 19:02:51 INFO CacheManager: Partition rdd_151_2 not found, computing it
+16/02/29 19:02:51 INFO BlockManager: Found block input-0-1456801370600 locally
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(23663) called with curMem=2384734, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block rdd_151_2 stored as bytes in memory (estimated size 23.1 KB, free 1963.8 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added rdd_151_2 in memory on localhost:57192 (size: 23.1 KB, free: 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block rdd_151_2
+16/02/29 19:02:51 INFO Executor: Finished task 38.0 in stage 115.0 (TID 382). 1451 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 38.0 in stage 115.0 (TID 382) in 4 ms on localhost (39/39)
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Removed TaskSet 115.0, whose tasks have all completed, from pool 
+16/02/29 19:02:51 INFO DAGScheduler: Stage 115 (map at Assignment.scala:30) finished in 0.079 s
+16/02/29 19:02:51 INFO DAGScheduler: looking for newly runnable stages
+16/02/29 19:02:51 INFO DAGScheduler: running: Set(Stage 0)
+16/02/29 19:02:51 INFO DAGScheduler: waiting: Set(Stage 116)
+16/02/29 19:02:51 INFO DAGScheduler: failed: Set()
+16/02/29 19:02:51 INFO DAGScheduler: Missing parents for Stage 116: List()
+16/02/29 19:02:51 INFO DAGScheduler: Submitting Stage 116 (MapPartitionsRDD[159] at transform at Assignment.scala:36), which is now runnable
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(3072) called with curMem=2408397, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_73 stored as values in memory (estimated size 3.0 KB, free 1963.8 MB)
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(2156) called with curMem=2411469, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_73_piece0 stored as bytes in memory (estimated size 2.1 KB, free 1963.8 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added broadcast_73_piece0 in memory on localhost:57192 (size: 2.1 KB, free: 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block broadcast_73_piece0
+16/02/29 19:02:51 INFO SparkContext: Created broadcast 73 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:51 INFO DAGScheduler: Submitting 2 missing tasks from Stage 116 (MapPartitionsRDD[159] at transform at Assignment.scala:36)
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Adding task set 116.0 with 2 tasks
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 0.0 in stage 116.0 (TID 383, localhost, PROCESS_LOCAL, 1056 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 0.0 in stage 116.0 (TID 383)
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Getting 23 non-empty blocks out of 39 blocks
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:51 INFO Executor: Finished task 0.0 in stage 116.0 (TID 383). 1310 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 1.0 in stage 116.0 (TID 384, localhost, PROCESS_LOCAL, 1056 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 1.0 in stage 116.0 (TID 384)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 0.0 in stage 116.0 (TID 383) in 4 ms on localhost (1/2)
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Getting 25 non-empty blocks out of 39 blocks
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:51 INFO Executor: Finished task 1.0 in stage 116.0 (TID 384). 1310 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 1.0 in stage 116.0 (TID 384) in 4 ms on localhost (2/2)
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Removed TaskSet 116.0, whose tasks have all completed, from pool 
+16/02/29 19:02:51 INFO DAGScheduler: Stage 116 (transform at Assignment.scala:36) finished in 0.008 s
+16/02/29 19:02:51 INFO DAGScheduler: Job 44 finished: transform at Assignment.scala:36, took 0.097145 s
+16/02/29 19:02:51 INFO JobScheduler: Added jobs for time 1456801371000 ms
+16/02/29 19:02:51 INFO JobGenerator: Checkpointing graph for time 1456801371000 ms
+16/02/29 19:02:51 INFO DStreamGraph: Updating checkpoint data for time 1456801371000 ms
+16/02/29 19:02:51 INFO JobScheduler: Starting job streaming job 1456801371000 ms.0 from job set of time 1456801371000 ms
+16/02/29 19:02:51 INFO DStreamGraph: Updated checkpoint data for time 1456801371000 ms
+16/02/29 19:02:51 INFO SparkContext: Starting job: print at Assignment.scala:36
+16/02/29 19:02:51 INFO CheckpointWriter: Saving checkpoint for time 1456801371000 ms to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801371000'
+16/02/29 19:02:51 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 30 is 252 bytes
+16/02/29 19:02:51 INFO DAGScheduler: Registering RDD 157 (map at Assignment.scala:33)
+16/02/29 19:02:51 INFO DAGScheduler: Got job 45 (print at Assignment.scala:36) with 1 output partitions (allowLocal=true)
+16/02/29 19:02:51 INFO DAGScheduler: Final stage: Stage 119(print at Assignment.scala:36)
+16/02/29 19:02:51 INFO DAGScheduler: Parents of final stage: List(Stage 118)
+16/02/29 19:02:51 INFO DAGScheduler: Missing parents: List(Stage 118)
+16/02/29 19:02:51 INFO DAGScheduler: Submitting Stage 118 (MapPartitionsRDD[157] at map at Assignment.scala:33), which has no missing parents
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(3096) called with curMem=2413625, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_74 stored as values in memory (estimated size 3.0 KB, free 1963.8 MB)
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(2211) called with curMem=2416721, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_74_piece0 stored as bytes in memory (estimated size 2.2 KB, free 1963.8 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added broadcast_74_piece0 in memory on localhost:57192 (size: 2.2 KB, free: 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block broadcast_74_piece0
+16/02/29 19:02:51 INFO SparkContext: Created broadcast 74 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:51 INFO DAGScheduler: Submitting 2 missing tasks from Stage 118 (MapPartitionsRDD[157] at map at Assignment.scala:33)
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Adding task set 118.0 with 2 tasks
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 0.0 in stage 118.0 (TID 385, localhost, PROCESS_LOCAL, 1045 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 0.0 in stage 118.0 (TID 385)
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Getting 23 non-empty blocks out of 39 blocks
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:51 INFO Executor: Finished task 0.0 in stage 118.0 (TID 385). 1098 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 1.0 in stage 118.0 (TID 386, localhost, PROCESS_LOCAL, 1045 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 1.0 in stage 118.0 (TID 386)
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 0.0 in stage 118.0 (TID 385) in 9 ms on localhost (1/2)
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Getting 25 non-empty blocks out of 39 blocks
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:51 INFO Executor: Finished task 1.0 in stage 118.0 (TID 386). 1098 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 1.0 in stage 118.0 (TID 386) in 6 ms on localhost (2/2)
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Removed TaskSet 118.0, whose tasks have all completed, from pool 
+16/02/29 19:02:51 INFO DAGScheduler: Stage 118 (map at Assignment.scala:33) finished in 0.014 s
+16/02/29 19:02:51 INFO DAGScheduler: looking for newly runnable stages
+16/02/29 19:02:51 INFO DAGScheduler: running: Set(Stage 0)
+16/02/29 19:02:51 INFO DAGScheduler: waiting: Set(Stage 119)
+16/02/29 19:02:51 INFO DAGScheduler: failed: Set()
+16/02/29 19:02:51 INFO DAGScheduler: Missing parents for Stage 119: List()
+16/02/29 19:02:51 INFO DAGScheduler: Submitting Stage 119 (ShuffledRDD[160] at transform at Assignment.scala:36), which is now runnable
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(2488) called with curMem=2418932, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_75 stored as values in memory (estimated size 2.4 KB, free 1963.8 MB)
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(1802) called with curMem=2421420, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_75_piece0 stored as bytes in memory (estimated size 1802.0 B, free 1963.8 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added broadcast_75_piece0 in memory on localhost:57192 (size: 1802.0 B, free: 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block broadcast_75_piece0
+16/02/29 19:02:51 INFO SparkContext: Created broadcast 75 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:51 INFO DAGScheduler: Submitting 1 missing tasks from Stage 119 (ShuffledRDD[160] at transform at Assignment.scala:36)
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Adding task set 119.0 with 1 tasks
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 0.0 in stage 119.0 (TID 387, localhost, PROCESS_LOCAL, 1056 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 0.0 in stage 119.0 (TID 387)
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:51 INFO Executor: Finished task 0.0 in stage 119.0 (TID 387). 1444 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 0.0 in stage 119.0 (TID 387) in 1 ms on localhost (1/1)
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Removed TaskSet 119.0, whose tasks have all completed, from pool 
+16/02/29 19:02:51 INFO DAGScheduler: Stage 119 (print at Assignment.scala:36) finished in 0.003 s
+16/02/29 19:02:51 INFO DAGScheduler: Job 45 finished: print at Assignment.scala:36, took 0.023014 s
+16/02/29 19:02:51 INFO SparkContext: Starting job: print at Assignment.scala:36
+16/02/29 19:02:51 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 30 is 252 bytes
+16/02/29 19:02:51 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 31 is 157 bytes
+16/02/29 19:02:51 INFO DAGScheduler: Got job 46 (print at Assignment.scala:36) with 1 output partitions (allowLocal=true)
+16/02/29 19:02:51 INFO DAGScheduler: Final stage: Stage 122(print at Assignment.scala:36)
+16/02/29 19:02:51 INFO DAGScheduler: Parents of final stage: List(Stage 121)
+16/02/29 19:02:51 INFO DAGScheduler: Missing parents: List()
+16/02/29 19:02:51 INFO DAGScheduler: Submitting Stage 122 (ShuffledRDD[160] at transform at Assignment.scala:36), which has no missing parents
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(2488) called with curMem=2423222, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_76 stored as values in memory (estimated size 2.4 KB, free 1963.8 MB)
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(1802) called with curMem=2425710, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block broadcast_76_piece0 stored as bytes in memory (estimated size 1802.0 B, free 1963.8 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added broadcast_76_piece0 in memory on localhost:57192 (size: 1802.0 B, free: 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block broadcast_76_piece0
+16/02/29 19:02:51 INFO SparkContext: Created broadcast 76 from broadcast at DAGScheduler.scala:839
+16/02/29 19:02:51 INFO DAGScheduler: Submitting 1 missing tasks from Stage 122 (ShuffledRDD[160] at transform at Assignment.scala:36)
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Adding task set 122.0 with 1 tasks
+16/02/29 19:02:51 INFO TaskSetManager: Starting task 0.0 in stage 122.0 (TID 388, localhost, PROCESS_LOCAL, 1056 bytes)
+16/02/29 19:02:51 INFO Executor: Running task 0.0 in stage 122.0 (TID 388)
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+16/02/29 19:02:51 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+16/02/29 19:02:51 INFO Executor: Finished task 0.0 in stage 122.0 (TID 388). 1268 bytes result sent to driver
+16/02/29 19:02:51 INFO TaskSetManager: Finished task 0.0 in stage 122.0 (TID 388) in 2 ms on localhost (1/1)
+16/02/29 19:02:51 INFO DAGScheduler: Stage 122 (print at Assignment.scala:36) finished in 0.002 s
+16/02/29 19:02:51 INFO TaskSchedulerImpl: Removed TaskSet 122.0, whose tasks have all completed, from pool 
+16/02/29 19:02:51 INFO DAGScheduler: Job 46 finished: print at Assignment.scala:36, took 0.005743 s
+-------------------------------------------
+Time: 1456801371000 ms
+-------------------------------------------
+(12,HappyBirthdayJustinBieber)
+(11,KCA)
+(6,iHeartAwards)
+(4,Oscars)
+(4,TilItHappensToYou)
+(3,BestFanArmy)
+(3,VotaSebastiánVillalobos)
+(3,BestMovieSong)
+(2,ALDUBBirthdayWish)
+(2,ﷺ)
+(2,MePasaDeTodoCuando)
+(2,5SOSFam)
+(2,askbelieber)
+(2,BBB16)
+(2,TheBachelor)
+(1,Mu…)
+(1,ESCORPIO)
+(1,Theri)
+(1,Nexercise)
+(1,OneMovieIllNeverGetTiredOf)
+(1,Harmonizers)
+(1,Motivation)
+(1,kickem)
+(1,hatosanjp)
+(1,smartdns)
+...
+
+16/02/29 19:02:51 INFO JobScheduler: Finished job streaming job 1456801371000 ms.0 from job set of time 1456801371000 ms
+16/02/29 19:02:51 INFO JobScheduler: Total delay: 0.138 s for time 1456801371000 ms (execution: 0.031 s)
+16/02/29 19:02:51 INFO ShuffledRDD: Removing RDD 150 from persistence list
+16/02/29 19:02:51 INFO BlockManager: Removing RDD 150
+16/02/29 19:02:51 INFO MapPartitionsRDD: Removing RDD 147 from persistence list
+16/02/29 19:02:51 INFO BlockManager: Removing RDD 147
+16/02/29 19:02:51 INFO ShuffledRDD: Removing RDD 146 from persistence list
+16/02/29 19:02:51 INFO BlockManager: Removing RDD 146
+16/02/29 19:02:51 INFO MapPartitionsRDD: Removing RDD 145 from persistence list
+16/02/29 19:02:51 INFO BlockManager: Removing RDD 145
+16/02/29 19:02:51 INFO MapPartitionsRDD: Removing RDD 144 from persistence list
+16/02/29 19:02:51 INFO BlockManager: Removing RDD 144
+16/02/29 19:02:51 INFO MapPartitionsRDD: Removing RDD 143 from persistence list
+16/02/29 19:02:51 INFO BlockManager: Removing RDD 143
+16/02/29 19:02:51 INFO UnionRDD: Removing RDD 142 from persistence list
+16/02/29 19:02:51 INFO BlockManager: Removing RDD 142
+16/02/29 19:02:51 INFO JobGenerator: Checkpointing graph for time 1456801371000 ms
+16/02/29 19:02:51 INFO DStreamGraph: Updating checkpoint data for time 1456801371000 ms
+16/02/29 19:02:51 INFO DStreamGraph: Updated checkpoint data for time 1456801371000 ms
+16/02/29 19:02:51 INFO CheckpointWriter: Deleting file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801366000.bk
+16/02/29 19:02:51 INFO CheckpointWriter: Checkpoint for time 1456801371000 ms saved to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801371000', took 6913 bytes and 33 ms
+16/02/29 19:02:51 INFO CheckpointWriter: Saving checkpoint for time 1456801371000 ms to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801371000'
+16/02/29 19:02:51 INFO CheckpointWriter: Deleting file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801366000
+16/02/29 19:02:51 INFO CheckpointWriter: Checkpoint for time 1456801371000 ms saved to file 'file:/Users/NagasharathRayapati/Desktop/Data/checkpoint-1456801371000', took 6907 bytes and 25 ms
+16/02/29 19:02:51 INFO DStreamGraph: Clearing checkpoint data for time 1456801371000 ms
+16/02/29 19:02:51 INFO DStreamGraph: Cleared checkpoint data for time 1456801371000 ms
+16/02/29 19:02:51 INFO ReceivedBlockTracker: Deleting batches ArrayBuffer()
+16/02/29 19:02:51 INFO MemoryStore: ensureFreeSpace(3245) called with curMem=2427512, maxMem=2061647216
+16/02/29 19:02:51 INFO MemoryStore: Block input-0-1456801371000 stored as bytes in memory (estimated size 3.2 KB, free 1963.8 MB)
+16/02/29 19:02:51 INFO BlockManagerInfo: Added input-0-1456801371000 in memory on localhost:57192 (size: 3.2 KB, free: 1963.9 MB)
+16/02/29 19:02:51 INFO BlockManagerMaster: Updated info of block input-0-1456801371000
+16/02/29 19:02:51 WARN BlockManager: Block input-0-1456801371000 replicated to only 0 peer(s) instead of 1 peers
+16/02/29 19:02:51 INFO BlockGenerator: Pushed block input-0-1456801371000
